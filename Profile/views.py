@@ -3,7 +3,7 @@ from Profile.models import Information, Education
 
 # Create your views here.
 def home(request):
-    Information_obj = Information.objects.get(pk = 1)
+    Information_obj = Information.objects.first()
     Education_obj = Education.objects.all()
     context = {
         "Info" : Information_obj,

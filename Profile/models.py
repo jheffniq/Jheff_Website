@@ -7,7 +7,7 @@ class Information(models.Model):
     Age = models.IntegerField(blank=True, null=True)
     Email = models.EmailField(blank=True, null=True)
     Address = models.CharField(max_length=250, blank=True,null=True)
-    Contact = models.IntegerField(blank=True, null=True)
+    Contact = models.CharField(max_length=15,blank=True, null=True)
     Description = models.TextField(max_length = 2000)
 
 class Education(models.Model):
