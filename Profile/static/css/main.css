@@ -1,0 +1,98 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/keyboard.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+.about{
+  color:#6fa0fa;
+}
+.education
+{
+  margin-top: 50%;
+  color: #6fa0fa;
+}
+
+.educard .educheader
+{
+    background-color: #6fa0fa;
+}
+.educard .educbody
+{
+    background-color: #405781;
+}
+
+.portfolio
+{
+  background-color: #1d1d1d;
+}
+
+.por
+{
+color:rgba(255, 255, 255, 0.8);
+}
+.card:hover{
+  background: linear-gradient(to bottom, rgba(199,0,57,.01) 0, rgba (199,0,57,.25) 25%, rgba(199,0,57,0.1) 50%,
+  rgba(199,0,57,.01) 0);
+}
+.contactico{
+  filter: invert(100%);
+}
+a .contactico{
+  filter: invert(100%);
+}
+a .contactico:hover {
+  filter:invert(0%)
+}
+.form-area{
+  padding-top: 7%;
+}
+.row.single-form{
+  box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left{
+  background: #405781;
+  padding: 200px 98px;
+}
+.left h2{
+  color:white;
+  font-weight: 700;
+  font-size: 48px;
+}
+.left h2 span{
+  font-weight: 100;
+}
+.right{
+  background-color: white;
+  color: black;
+  padding: 140px 100px;
+  position: relative;
+}
+.right i{
+  position: absolute;
+  font-size: 80px;
+  left: -27px;
+  top: 40%;
+  color: #fff;
+}
+.form-control{
+  border: 2px solid #000;
+}
+.right button{
+  border: none;
+  border-radius: 0;
+  background: #212529;
+  width: 180px;
+  color: #fff;
+  padding: 15px 0;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.right button:hover{
+  background-color: #405781;
+}
